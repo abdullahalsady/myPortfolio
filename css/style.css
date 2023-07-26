@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* other css file import */
-@import url(./sections/navber.css);
+@import url(./sections/navbar.css);
 @import url(./sections/hero.css);
-@import url(./sections/about.css);
+/* @import url(./sections/about.css);
 @import url(./sections/showcase.css);
-@import url(./sections/contact.css);
-@import url(./sections/footer.css);
+@import url(./sections/contact.css); */
+/* @import url(./sections/footer.css); */
 
 
 /* defult style remove */
@@ -25,16 +25,20 @@
     --font-family: 'Poppins', sans-serif;
     
     /* colors */
-    --primary-color: ;
+    --background-color: #002023;
+    /* --primary-color: ;
     --secondary-color: ;
-    --background-color: ;
     --text-color: ;
     --link-color: ;
-    --hover-color: ;
+    --hover-color: ; */
     /* shadow */
 
     /* spacing */
     --small-size: 16px;
+}
+
+body {
+    font-family: var(--font-family);
 }
 
 ul,
@@ -44,6 +48,7 @@ ol {
 
 li {
     text-decoration: none;
+
 }
 
 a {

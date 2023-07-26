@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abdullah Al Sady</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- Navber Section -->
     <nav class="navbar">
-        <div class="navbar__logo"></div>
-        <ul class="navbar__menu">
-            <li class="navbar__item"><a href="#home" class="navbar__link">Home</a></li>
-            <li class="navbar__item"><a href="#about" class="navbar__link">About</a></li>
-            <li class="navbar__item"><a href="#showcase" class="navbar__link">Showcase</a></li>
-            <li class="navbar__item"><a href="#contact" class="navbar__link">Contact</a></li>
-        </ul>
-    </nav>        
+      <main class="navbar__container">
+        <div class="navbar__wrapper">
+          <div class="navbar__logo"></div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__link">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#showcase" class="navbar__link">Showcase</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#contact" class="navbar__link">Contact</a>
+            </li>
+            <li class="navbar__item">
+              <a href="https://github.com/abdullahalsady" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="home"></section>
+    <section class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__title">HI, MY NAME IS</h1>
+        <h2 class="hero__name">Abdullah Al Sady.</h2>
+        <h2 class="hero__role">I am a full-stack dev🚀.</h2>
+      </div>
+    </section>
 
     <!-- About Section -->
     <section class="about" id="about"></section>
@@ -32,18 +62,35 @@
 
     <!-- Footer Section -->
     <section class="footer">
-        <main class="footer__main">
-            <hr class="footer__divider" />
-            <div class="footer__left-side">
-                &copy; 2023 dev.sady
-            </div>
-            <div class="footer__right-side">
-                <a href="" alt="facebook-icon" class="footer__social-link footer__social-link--facebook"></a>
-                <a href="" alt="instagram-icon" class="footer__social-link footer__social-link--github"></a>
-                <a href="" alt="linkedin-icon" class="footer__social-link footer__social-link--linkedin"></a>
-            </div>
-        </main>
+      <hr class="footer__divider" />
+      <main class="container">
+        <div class="wrapper">
+          <div class="footer__left-side">&copy; 2023 dev.sady</div>
+          <div class="footer__right-side">
+            <a
+              href="https://www.facebook.com/div.sady"
+              alt="facebook-icon"
+              class="footer__social-link footer__social-link--facebook" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://github.com/abdullahalsady"
+              alt="github"
+              class="footer__social-link footer__social-link--github" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/programmer-sady"
+              alt="linkedin-icon"
+              class="footer__social-link footer__social-link--linkedin" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </main>
     </section>
-    
-</body>
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+  </body>
 </html>

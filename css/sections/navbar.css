@@ -1,0 +1,24 @@
+.navbar {
+    background-color: var(--background-color);
+}
+
+.navbar__container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.navbar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    gap: 35px;
+    height: 80px;
+    font-weight: 500;
+}
