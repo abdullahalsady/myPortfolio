@@ -1,0 +1,21 @@
+.about {
+    background-color: #f2f8f5;
+}
+
+.about__title {
+    font-size: 260px;
+    text-align: center;
+    background-color: #e7f2ef;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+}
+
+.about__container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* .about__wrapper {
+
+
+} */

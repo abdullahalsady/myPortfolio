@@ -4,7 +4,7 @@
 
 .navbar__container {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
 }
 
 .navbar__wrapper {
@@ -19,6 +19,12 @@
     font-size: 16px;
     color: white;
     gap: 35px;
-    height: 80px;
+    height: 140px;
     font-weight: 500;
+}
+
+.navbar__item:hover {
+    text-decoration: underline;
+    color: #02aa94;
+    transition: all .4s linear;
 }

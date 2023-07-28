@@ -1,13 +1,14 @@
 /* font import */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 /* other css file import */
 @import url(./sections/navbar.css);
 @import url(./sections/hero.css);
-/* @import url(./sections/about.css);
+@import url(./sections/about.css);
 @import url(./sections/showcase.css);
-@import url(./sections/contact.css); */
-/* @import url(./sections/footer.css); */
+@import url(./sections/contact.css);
+@import url(./sections/footer.css);
 
 
 /* defult style remove */
@@ -22,8 +23,9 @@
 /* variables */
 :root {
     /* fonts */
-    --font-family: 'Poppins', sans-serif;
-    
+    --primary-font: 'Roboto Slab', serif;
+    --secondary-font: 'Poppins', sans-serif;
+
     /* colors */
     --background-color: #002023;
     /* --primary-color: ;
@@ -38,7 +40,7 @@
 }
 
 body {
-    font-family: var(--font-family);
+    font-family: var(--primary-font);
 }
 
 ul,
@@ -55,3 +57,4 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
